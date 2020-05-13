@@ -15,6 +15,16 @@
 		EFD879D52463D290009AF0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD879D32463D290009AF0D7 /* LaunchScreen.storyboard */; };
 		EFD879E02463D290009AF0D7 /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879DF2463D290009AF0D7 /* BarabaraGameTests.swift */; };
 		EFD879EB2463D290009AF0D7 /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879EA2463D290009AF0D7 /* BarabaraGameUITests.swift */; };
+		EFD879FA2463D6DA009AF0D7 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD879F82463D6D9009AF0D7 /* tail.png */; };
+		EFD879FB2463D6DA009AF0D7 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD879F92463D6DA009AF0D7 /* bar.png */; };
+		EFD879FD2463DD83009AF0D7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879FC2463DD83009AF0D7 /* GameViewController.swift */; };
+		EFD879FF2463DDBE009AF0D7 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879FE2463DDBE009AF0D7 /* RankingViewController.swift */; };
+		EFD87A032464334D009AF0D7 /* ピカチュウ.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD87A022464334D009AF0D7 /* ピカチュウ.png */; };
+		EFD87A0524643356009AF0D7 /* ピチュー.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD87A0424643356009AF0D7 /* ピチュー.png */; };
+		EFD87A072464335D009AF0D7 /* ライチュウ.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD87A062464335D009AF0D7 /* ライチュウ.png */; };
+		EFD87A09246433B7009AF0D7 /* pokemon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD87A08246433B6009AF0D7 /* pokemon.png */; };
+		EFD87A0B246433C6009AF0D7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD87A0A246433C6009AF0D7 /* icon.png */; };
+		EFD87A0D2464379D009AF0D7 /* pokemon2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD87A0C2464379D009AF0D7 /* pokemon2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		EFD879E62463D290009AF0D7 /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD879EA2463D290009AF0D7 /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		EFD879EC2463D290009AF0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD879F82463D6D9009AF0D7 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		EFD879F92463D6DA009AF0D7 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		EFD879FC2463DD83009AF0D7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = BarabaraGame/GameViewController.swift; sourceTree = "<group>"; };
+		EFD879FE2463DDBE009AF0D7 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RankingViewController.swift; path = BarabaraGame/RankingViewController.swift; sourceTree = "<group>"; };
+		EFD87A022464334D009AF0D7 /* ピカチュウ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ピカチュウ.png"; sourceTree = "<group>"; };
+		EFD87A0424643356009AF0D7 /* ピチュー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ピチュー.png"; sourceTree = "<group>"; };
+		EFD87A062464335D009AF0D7 /* ライチュウ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ライチュウ.png"; sourceTree = "<group>"; };
+		EFD87A08246433B6009AF0D7 /* pokemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokemon.png; sourceTree = SOURCE_ROOT; };
+		EFD87A0A246433C6009AF0D7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
+		EFD87A0C2464379D009AF0D7 /* pokemon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokemon2.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,8 @@
 		EFD879BC2463D28C009AF0D7 = {
 			isa = PBXGroup;
 			children = (
+				EFD879FE2463DDBE009AF0D7 /* RankingViewController.swift */,
+				EFD879FC2463DD83009AF0D7 /* GameViewController.swift */,
 				EFD879C72463D28C009AF0D7 /* BarabaraGame */,
 				EFD879DE2463D290009AF0D7 /* BarabaraGameTests */,
 				EFD879E92463D290009AF0D7 /* BarabaraGameUITests */,
@@ -99,6 +121,14 @@
 		EFD879C72463D28C009AF0D7 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				EFD87A0A246433C6009AF0D7 /* icon.png */,
+				EFD87A0424643356009AF0D7 /* ピチュー.png */,
+				EFD87A022464334D009AF0D7 /* ピカチュウ.png */,
+				EFD87A062464335D009AF0D7 /* ライチュウ.png */,
+				EFD87A08246433B6009AF0D7 /* pokemon.png */,
+				EFD87A0C2464379D009AF0D7 /* pokemon2.png */,
+				EFD879F92463D6DA009AF0D7 /* bar.png */,
+				EFD879F82463D6D9009AF0D7 /* tail.png */,
 				EFD879C82463D28C009AF0D7 /* AppDelegate.swift */,
 				EFD879CA2463D28C009AF0D7 /* SceneDelegate.swift */,
 				EFD879CC2463D28C009AF0D7 /* ViewController.swift */,
@@ -233,7 +263,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD879D52463D290009AF0D7 /* LaunchScreen.storyboard in Resources */,
+				EFD87A0524643356009AF0D7 /* ピチュー.png in Resources */,
+				EFD879FB2463D6DA009AF0D7 /* bar.png in Resources */,
+				EFD879FA2463D6DA009AF0D7 /* tail.png in Resources */,
 				EFD879D22463D290009AF0D7 /* Assets.xcassets in Resources */,
+				EFD87A0D2464379D009AF0D7 /* pokemon2.png in Resources */,
+				EFD87A072464335D009AF0D7 /* ライチュウ.png in Resources */,
+				EFD87A0B246433C6009AF0D7 /* icon.png in Resources */,
+				EFD87A032464334D009AF0D7 /* ピカチュウ.png in Resources */,
+				EFD87A09246433B7009AF0D7 /* pokemon.png in Resources */,
 				EFD879D02463D28C009AF0D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD879FF2463DDBE009AF0D7 /* RankingViewController.swift in Sources */,
+				EFD879FD2463DD83009AF0D7 /* GameViewController.swift in Sources */,
 				EFD879CD2463D28C009AF0D7 /* ViewController.swift in Sources */,
 				EFD879C92463D28C009AF0D7 /* AppDelegate.swift in Sources */,
 				EFD879CB2463D28C009AF0D7 /* SceneDelegate.swift in Sources */,
@@ -435,7 +475,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = BarabaraGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +494,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = BarabaraGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
